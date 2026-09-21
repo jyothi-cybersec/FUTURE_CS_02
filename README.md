@@ -84,14 +84,31 @@ websites.
 
 ### Repository Structure
 
-Task2/
+```text
+FUTURE_CS_02/
 ├── samples/
+│   ├── Sample_01.txt
+│   ├── Sample_02.eml
+│   ├── Sample_02.txt
+│   └── Sample_02_Body_Extract.txt
 ├── analysis/
+│   ├── Sample_01_Analysis.txt
+│   ├── Sample_02_Analysis.txt
+│   └── Phishing_Indicators_Summary.txt
 ├── header-analysis/
+│   ├── Sample_01_Header_Analysis.txt
+│   └── Sample_02_Header_Analysis.txt
 ├── link-analysis/
+│   ├── Sample_01_Link_Analysis.txt
+│   └── Sample_02_Link_Analysis.txt
 ├── screenshots/
+│   ├── Sample_01/
+│   └── Sample_02/
 ├── awareness/
+│   └── Employee_Awareness_Guide.txt
 ├── report/
+│   ├── Phishing_Email_Detection_Report.md
+│   └── Phishing_Email_Detection_Report.pdf
 ├── references/
 └── README.md
 
@@ -116,19 +133,8 @@ For Sample 01, raw authentication and delivery headers were unavailable.
 For Sample 02, the shortened URL was not opened, so its final redirect
 destination was not verified.
 
-### References
-
-Future Interns — Cyber Security Task 2
-https://futureinterns.com/cyber-security-task-2-2026/
-
-Sample 02 source
-https://github.com/jacobdcook/Phishing-Analysis-Lab
-
-Raw Sample 02
-https://raw.githubusercontent.com/jacobdcook/Phishing-Analysis-Lab/main/samples/sample2.eml
-
 ### Author
 
-**Jyothi Gedhala**
+**Jyothi**
 
 B.Tech Computer Science and Engineering — Cybersecurity
