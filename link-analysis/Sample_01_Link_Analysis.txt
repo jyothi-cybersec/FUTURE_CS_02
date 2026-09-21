@@ -1,0 +1,33 @@
+SAMPLE 01 — LINK ANALYSIS
+
+Observed URL:
+http://secure-account-verify[.]com
+
+URL Handling:
+The URL is documented in defanged form so it cannot be accidentally
+visited.
+
+Analysis:
+
+1. The URL uses HTTP rather than HTTPS.
+
+2. The domain name contains account-verification language intended to
+appear related to account security.
+
+3. The domain does not identify a legitimate organization.
+
+4. The link is presented together with an urgent request to verify account
+details.
+
+5. The email threatens permanent account lock if the recipient does not
+act within 24 hours.
+
+Assessment:
+The URL is a significant phishing indicator when considered together with
+the sender, urgency, account-verification request, and threat language.
+
+No attempt was made to visit the URL.
+
+Source:
+Future Interns — Cyber Security Task 2
+https://futureinterns.com/cyber-security-task-2-2026/

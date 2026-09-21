@@ -1,0 +1,50 @@
+SAMPLE 02 — RAW HEADER ANALYSIS
+
+Source:
+Publicly documented phishing-analysis sample.
+Raw email file: samples/Sample_02.eml
+
+OBSERVED HEADER EVIDENCE
+
+From:
+"Microsoft Account Team" <noreply@microsoftonline-verify.com>
+
+Return-Path:
+noreply@microsoftonline-verify.com
+
+Sending IP:
+178.238.225.91
+
+Received host:
+mail.microsoftonline-verify.com
+
+Underlying infrastructure shown in Received header:
+vps-291847.contabo.net
+
+SPF:
+FAIL
+
+DKIM:
+FAIL
+
+DMARC:
+FAIL
+
+Subject:
+[Action Required] Unusual sign-in activity on your account
+
+X-Priority:
+1
+
+INITIAL TECHNICAL ASSESSMENT
+
+The raw headers show failures for SPF, DKIM, and DMARC. The sending
+infrastructure is also associated with the hostname
+vps-291847.contabo.net rather than an infrastructure that is clearly
+identified as Microsoft's.
+
+These observations provide technical evidence supporting further
+phishing investigation.
+
+No claim is made about the ownership of the IP address beyond what is
+shown directly in the raw email headers.

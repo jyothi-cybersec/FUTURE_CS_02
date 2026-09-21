@@ -1,0 +1,29 @@
+SAMPLE 02 — LINK ANALYSIS
+
+Observed URL:
+https://bit.ly/3vF9xKz
+
+URL Handling:
+The URL was extracted from the raw email source. It was not opened or
+visited.
+
+Analysis:
+
+1. The link uses the bit.ly URL-shortening service.
+
+2. The shortened URL does not reveal the final destination to the
+recipient from the visible link alone.
+
+3. The visible link therefore does not establish that the destination
+belongs to Microsoft.
+
+4. The email uses Microsoft branding and asks the recipient to review
+recent account activity, making the destination especially important to
+verify before clicking.
+
+Assessment:
+The shortened URL is a phishing indicator that requires caution and
+further safe, passive investigation.
+
+No claim is made about the final redirect destination because the URL
+was not opened.

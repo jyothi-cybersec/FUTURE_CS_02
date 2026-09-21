@@ -1,0 +1,58 @@
+PHISHING INDICATORS SUMMARY
+
+SAMPLE 01
+Classification: PHISHING
+
+Observed indicators:
+- Unidentified sender
+- Generic greeting
+- Urgency and fear-based language
+- Threat of permanent account lock
+- Suspicious account-verification request
+- Suspicious domain
+- HTTP link
+- Potential request for sensitive information
+
+Technical limitation:
+Raw email headers were not provided, so SPF, DKIM, DMARC,
+Return-Path, Received headers, and sending infrastructure could not
+be verified.
+
+
+SAMPLE 02
+Classification: PHISHING
+
+Observed indicators:
+- Microsoft impersonation
+- Suspicious sender domain
+- SPF failure
+- DKIM failure
+- DMARC failure
+- Suspicious sending infrastructure
+- Urgent account-security theme
+- Microsoft branding
+- Shortened Bitly URL
+- Request for immediate account action
+
+Technical evidence:
+Sending IP: 178.238.225.91
+Sending host: mail.microsoftonline-verify.com
+Underlying host: vps-291847.contabo.net
+Authentication: SPF FAIL / DKIM FAIL / DMARC FAIL
+
+URL:
+https://bit.ly/3vF9xKz
+
+URL limitation:
+The shortened URL was not opened, so its final destination was not
+verified.
+
+
+COMPARISON
+
+Sample 01:
+Primarily classified using visible email content and URL indicators.
+
+Sample 02:
+Classified using both visible content and technical email-header
+evidence.

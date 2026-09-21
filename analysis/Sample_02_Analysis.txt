@@ -1,0 +1,66 @@
+SAMPLE 02 — PHISHING EMAIL ANALYSIS
+
+Risk Classification: PHISHING
+
+EVIDENCE-BASED INDICATORS
+
+1. Sender impersonation
+The sender display name is "Microsoft Account Team", while the sender
+address uses the domain microsoftonline-verify.com.
+
+2. Suspicious sender domain
+The domain microsoftonline-verify.com is presented as the sender domain,
+but it is not the official microsoft.com domain.
+
+3. Authentication failures
+The raw email headers show:
+SPF: FAIL
+DKIM: FAIL
+DMARC: FAIL
+
+4. Suspicious sending infrastructure
+The Received header identifies the sending host as
+mail.microsoftonline-verify.com, with the underlying host shown as
+vps-291847.contabo.net and sending IP 178.238.225.91.
+
+5. Urgency
+The subject states "[Action Required] Unusual sign-in activity on your
+account", while the body describes the notification as mandatory and
+requires immediate attention.
+
+6. Account-security theme
+The message attempts to make the recipient respond to an alleged unusual
+sign-in by securing the account.
+
+7. Shortened URL
+The action link uses:
+https://bit.ly/3vF9xKz
+
+A shortened URL does not reveal the final destination from the visible
+link alone.
+
+8. Microsoft branding
+The email uses Microsoft-related branding and references Microsoft
+Corporation and a Microsoft address to appear legitimate.
+
+9. Inconsistent technical evidence
+The visible Microsoft identity is inconsistent with the sender domain and
+the failed email-authentication results.
+
+OVERALL ASSESSMENT
+
+The combination of sender-domain impersonation, SPF/DKIM/DMARC failures,
+suspicious sending infrastructure, urgency, Microsoft branding, and a
+shortened action URL provides strong evidence that this message is a
+phishing email.
+
+RECOMMENDED ACTION
+
+Do not click the link or provide credentials or other sensitive
+information. Report the message as phishing and verify account activity
+through Microsoft's official website or another known trusted channel.
+
+LIMITATION
+
+The shortened URL was not opened. Therefore, the final redirect
+destination has not been claimed or analyzed.

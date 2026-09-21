@@ -1,0 +1,39 @@
+SAMPLE 02 — EMAIL BODY EVIDENCE
+
+The HTML body presents itself as a Microsoft account security alert.
+
+Observed elements:
+
+1. Displayed title:
+Microsoft Account Security Alert
+
+2. Alert message:
+Unusual sign-in activity
+
+3. Claimed sign-in information:
+Country/region: Russia
+IP address: 91.234.99.42
+Date: February 6, 2026 4:32 AM UTC
+Platform: Windows 10
+Browser: Chrome 120.0
+
+4. Requested action:
+The recipient is instructed to secure the account immediately if the
+sign-in was not recognized.
+
+5. Link text:
+Review recent activity
+
+6. Link destination:
+https://bit.ly/3vF9xKz
+
+7. Branding:
+The message uses Microsoft branding and references Microsoft Corporation
+and a Microsoft address.
+
+8. Urgency:
+The message describes the notification as mandatory and states that the
+account requires immediate attention.
+
+SAFETY NOTE:
+The URL is documented as evidence only. It was not opened or visited.

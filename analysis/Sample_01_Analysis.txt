@@ -1,0 +1,58 @@
+SAMPLE 01 — PHISHING EMAIL ANALYSIS
+
+Risk Classification: PHISHING
+
+EVIDENCE-BASED INDICATORS
+
+1. Unidentified sender
+The sender is presented only as "Security Team" without a specific
+organization or identifiable sender address.
+
+2. Generic greeting
+The message begins with "Dear User" rather than identifying the
+recipient by name.
+
+3. Urgency
+The email creates pressure by stating that the account will be
+permanently locked within 24 hours.
+
+4. Fear-based language
+The message claims that suspicious activity has been detected and
+threatens account suspension.
+
+5. Suspicious verification request
+The recipient is instructed to verify account details through a link.
+
+6. Suspicious URL
+The message contains:
+http://secure-account-verify[.]com
+
+The domain does not identify a known legitimate organization.
+
+7. Sensitive-action request
+The requested account verification could lead a recipient to disclose
+credentials or other sensitive information.
+
+OVERALL ASSESSMENT
+
+The combination of an unidentified sender, generic greeting, urgency,
+fear-based account-lock warning, suspicious domain, and account
+verification request indicates a phishing attempt.
+
+HEADER LIMITATION
+
+Raw email headers were not provided with the Future Interns sample.
+Therefore, SPF, DKIM, DMARC, Return-Path, Received headers, and sending
+infrastructure cannot be verified.
+
+RECOMMENDED ACTION
+
+Do not click the link or provide credentials, OTPs, passwords, or
+personal information. Report the message as phishing and verify any
+account issue through the organization's official website or a known
+trusted support channel.
+
+SOURCE
+
+Future Interns — Cyber Security Task 2
+https://futureinterns.com/cyber-security-task-2-2026/

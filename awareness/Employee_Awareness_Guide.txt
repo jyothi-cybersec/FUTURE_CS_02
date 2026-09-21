@@ -1,0 +1,68 @@
+PHISHING EMAIL AWARENESS GUIDE
+
+PURPOSE
+
+Phishing emails attempt to trick users into clicking malicious links,
+sharing credentials, opening unsafe attachments, or taking an action that
+benefits an attacker.
+
+HOW TO IDENTIFY A SUSPICIOUS EMAIL
+
+1. Check the sender
+Look at the complete sender address, not only the display name. Be
+careful when the domain does not match the organization being claimed.
+
+2. Check the message for urgency
+Attackers often create pressure with account-lock warnings, security
+alerts, deadlines, or threats.
+
+3. Inspect links before clicking
+Check where a link is intended to go. Be cautious with unfamiliar domains,
+shortened URLs, and links that do not match the organization being
+claimed.
+
+4. Look for requests for sensitive information
+Be suspicious of unexpected requests for passwords, OTPs, payment
+information, account details, or other confidential information.
+
+5. Check authentication indicators when available
+SPF, DKIM, and DMARC results can provide useful evidence during technical
+email investigation.
+
+6. Verify independently
+If an email claims there is an account problem, open the organization's
+known official website manually or use a trusted support channel instead
+of using the email link.
+
+EMPLOYEE DO'S
+
+- Verify the sender's complete email address.
+- Check suspicious links before clicking.
+- Treat unexpected urgent requests cautiously.
+- Report suspected phishing emails through the organization's approved
+  reporting process.
+- Verify account or payment requests using a trusted channel.
+- Contact IT/security when unsure.
+
+EMPLOYEE DON'TS
+
+- Do not click suspicious links.
+- Do not enter passwords after following an unexpected email link.
+- Do not share OTPs or authentication codes.
+- Do not open unexpected attachments.
+- Do not rely only on logos, branding, or display names.
+- Do not allow urgency to replace verification.
+
+IF YOU CLICKED A SUSPICIOUS LINK
+
+1. Stop entering information.
+2. Close the suspicious webpage.
+3. Inform the organization's IT/security team immediately.
+4. If credentials were entered, follow the organization's password-reset
+   and incident-response procedure.
+5. Report the original email so it can be investigated.
+
+KEY RULE
+
+When an email creates urgency and asks you to perform a security-sensitive
+action, pause and verify the request independently before taking action.
