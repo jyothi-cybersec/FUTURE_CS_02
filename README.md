@@ -111,7 +111,7 @@ FUTURE_CS_02/
 │   └── Phishing_Email_Detection_Report.pdf
 ├── references/
 └── README.md
-
+```
 ### Findings
 
 Both analyzed samples were classified as phishing based on their
