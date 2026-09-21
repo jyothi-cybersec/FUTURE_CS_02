@@ -126,3 +126,9 @@ https://github.com/jacobdcook/Phishing-Analysis-Lab
 
 Raw Sample 02
 https://raw.githubusercontent.com/jacobdcook/Phishing-Analysis-Lab/main/samples/sample2.eml
+
+### Author
+
+**Jyothi Gedhala**
+
+B.Tech Computer Science and Engineering — Cybersecurity
